@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open"
   },
   "dependencies": {
@@ -30,6 +30,6 @@
     "path": "^0.12.7",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.11.0"
   }
 }
